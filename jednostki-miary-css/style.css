@@ -1,3 +1,58 @@
 body {
     background-color: aqua;
 }
+
+html {
+    
+    font-family: arial;
+}
+
+#container > div {
+    font-size: 30px;
+    background-color: red;
+    margin-bottom: 20px;
+}
+
+#pixele {
+    
+    width: 400px;
+}
+
+#em {
+    width: 20em;
+}
+
+#ex {
+    width: 20ex;
+}
+
+#rem {
+    width: 20rem;
+}
+
+#procenty {
+    
+    width: 40%;
+}
+
+#vw {
+    width: 60vw;
+}
+
+#vh {
+    width: 60vh;
+}
+
+#vmin {
+    width: 60vmin;
+}
+
+#vmax {
+    width: 60vmax;
+    font-size: 3vmax;
+    
+}
+
+#mm {
+    width: 200mm;
+}
