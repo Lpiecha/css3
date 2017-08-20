@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#menu {
+    background: black;
+    text-align: center;
+}
+
+.menu-item  {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+}
+.menu-item a {
+    color:white;
+    text-decoration: none;
+    }
+#header {
+    position: relative;
+    text-align: center;
+}
+
+#header > headerimg {
+    width: 100%;
+}
+
+#main-header-text {
+    
+    top: 50%;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+}
+
+#about-header {
+    
+    color: black;
+    text-align: center;
+    
+}
+
+.about-content {
+    
+    font-family: lato;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    padding: 1px;
+}
+
+#contact {
+    background: black;
+    padding: 50px;
+    font-style: normal;
+   
+}
+
+#contact #contact-header {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    font-style: normal;
+    
+}
+
+#contact #contact-content {
+    text-align: center;
+    color: white;
+    font-style: normal;
+    
+}
+
+#contact #contact-content a {
+    color: white;
+    font-style: normal;
+    
+}
