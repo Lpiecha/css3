@@ -1,3 +1,47 @@
 body {
-    background-color: teal;
+    background-color: orange;
+}
+
+p {
+    color:green;
+}
+
+#yerba {
+    
+    color:pink;
+}
+
+.mate { 
+    color: red;
+}
+
+div, a, span {
+    
+    color:blue;
+}
+
+div#element-potomny {
+    color:darkmagenta;
+}
+
+div#element-spacja p {
+    color:cyan;
+}
+
+div#rodzenstwo > p + div {
+    color: black;
+}
+
+div#cale-rodzenstwo > div ~ div {
+    
+    color:magenta;
+}
+
+ul > li.list-item:not(.last) {
+    color:aqua;
+}
+
+ol > li:nth-child(3) {
+    
+    background-color: darkblue;
 }
