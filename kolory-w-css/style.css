@@ -1,35 +1,30 @@
 body {
     
     background-color: mediumturquoise;
+  
 }
 
 
 #kolory-predefiniowane {
     
     background-color: red;
-    width: 200px;
-    height: 30px;
-    margin-bottom: 15px;
+  
 }
 
 #kolory-heksadecymalne {
     
 
     background-color: #fe3499;
-    width: 200px;
-    height: 30px;
-    margin-bottom: 15px;
+    
 }
 
 #kolory-heksadecymalne-zapis-skrocony {
     background-color: #f49;
-    width: 200px;
-    height: 30px;
+
 }
 
 #kolory-rgb {
     
     background-color: rgb(230, 22, 91);
-    width: 200px;
-    height: 30px;
+
 }
