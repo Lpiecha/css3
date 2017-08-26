@@ -1,0 +1,17 @@
+@media all and (min-width: 992px){
+ figure {
+    width: 33%;
+    }
+}
+    @media all and (min-width:768px) and (max-width:992px) {
+        figure {
+            width: 40%;
+        }
+        
+    }
+        @media all and (max-width:768px) { 
+            figure {
+                width: 100%;
+            }
+        }
+
