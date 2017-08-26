@@ -1,0 +1,41 @@
+.box {
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+}
+
+#pierwszybox:hover {
+    
+    width: 300px;
+}
+#pierwszybox {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+}
+
+#drugibox:hover {
+    height: 300px;
+}
+
+#drugibox {
+ height: 100px;  
+ width: 100px;
+transition: height 2s;
+}
+
+#trzecibox:hover {
+    height:300px;
+    width:300px;
+}
+
+#trzecibox {
+
+    background:green;
+height: 100px;  
+ width: 100px;
+transition animation-timing-function: ease;
+    transition-duration: 2s;
+    
+}
