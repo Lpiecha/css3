@@ -1,0 +1,33 @@
+body {
+    background-color: red;
+}
+
+.kwadrat{
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+
+}
+
+.small-kwadrat{
+            width: 50%;
+			height: 50%;
+            top: 25%;
+            margin: 0 auto;
+            position: relative;
+			background:orange; 
+}
+.fa{
+    
+}
+#icon{
+    font-size: 68px;
+     border: solid 0px;
+    border-radius: 150px;
+}
+
+#grad{
+    height: 50px;
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+}
