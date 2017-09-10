@@ -36,4 +36,29 @@ body {
 #foot{
   
     bottom: 0;
+
+}
+
+#zdjecie{
+    width: 350px;
+    height: 259px;
+}
+#zdjecie:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+#pulse{
+    color: green;
+    font-size: 26px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 10%;
+    animation: pulsate 1s ease-out;
+    animation-iteration-count: infinite; 
+    opacity: 0.0;
 }
